@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Practice Website</title>
+  <style>
+    /* Reset */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 0.5rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h1, h2 {
+      margin-bottom: 1rem;
+      color: #4a90e2;
+    }
+
+    ul {
+      margin: 1rem 0;
+      padding-left: 1.2rem;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .project {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    form {
+      display: grid;
+      gap: 0.5rem;
+      max-width: 400px;
+    }
+
+    input, textarea, button {
+      padding: 0.7rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    button {
+      background: #4a90e2;
+      color: white;
+      cursor: pointer;
+      border: none;
+    }
+
+    button:hover {
+      background: #357ab8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #eee;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+    <p>Learning Web Development, One Step at a Time</p>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Home</h2>
+      <p>Hi! I’m Zarifa, and this is my practice website. I’m learning how to design, structure, and style pages with HTML, CSS, and JavaScript. This project will grow as I practice more features.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I’m an aspiring web developer who enjoys creating things with code. I started learning HTML and CSS because I wanted to understand how websites are built from scratch.</p>
+      <p>When I’m not coding, I like reading, baking, watching movies or TV shows.</p>
+      <h3>Fun Facts</h3>
+      <ul>
+        <li>I love solving puzzles</li>
+        <li>I enjoy trying new foods</li>
+        <li>My favorite colors are navy blue and crimson red</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>Personal Blog Layout</h3>
+          <p>A simple blog design with posts and categories.</p>
+        </div>
+        <div class="project">
+          <h3>Portfolio Gallery</h3>
+          <p>A page that shows images in a grid.</p>
+        </div>
+        <div class="project">
+          <h3>Interactive To-Do List</h3>
+          <p>A small JavaScript app to add and remove tasks.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Get in Touch</h2>
+      <p>I’d love to connect! You can reach me through the form below or on my social links.</p>
+      <form>
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Your Message" required></textarea>
+  <button type="submit">Send</button>
+</form>
+
+      <p>Or find me on:</p>
+      <ul>
+        <li><a href="https://github.com/zarifa08adilova">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/zarifa-adilova-83ba722a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/zarifaa_08?igsh=dXRtOXNicHoxdTU0">Instagram</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Practice Website</p>
+  </footer>
+</body>
+</html>
